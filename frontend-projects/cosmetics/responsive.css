@@ -1,0 +1,205 @@
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+	body{
+		/*background-color: red;*/
+	}
+
+	.header-left{
+		text-align: center;
+	}
+	.single-csm-products .product-img{
+		text-align: center;
+	}
+	.logo{
+		text-align: center;
+	}
+	.header-right{
+		text-align: center;
+	}
+	.menu-area .navbar-default .navbar-nav > li >a{
+		font-size: 12px;
+		padding-right: 5px;
+		padding-left: 5px;
+		font-weight: normal;
+	}
+	.coupon{
+		margin: 0 auto;
+	}
+	.single-footer-top{
+		text-align: center;
+	}
+	.footer-left{
+		text-align: center;
+	}
+	.useful-link{
+		text-align: center;
+	}
+	.floatright{
+		float: none;
+	}
+	.single-product-menu{
+		text-align: center;
+	}
+	.necessary-icon{
+		text-align: center;
+	}
+	.spd-heading ul li:last-child{
+		display: none;
+	}
+	
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+
+	.header-left{
+		text-align: center;
+	}
+	.header-left > ul.breadcrumb > li > a, .header-right > ul.breadcrumb > li > a{
+		font-size: 12px;
+		font-weight: normal;
+		padding: 20px 0;
+	}
+	.logo{
+		text-align: center;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+	.header-right{
+		text-align: center;
+		padding: 20px 0;
+	}
+	.cosmetics-slider-area #mycarousel  a.controll{
+		font-size: 60px;
+		margin-top: -45px;
+	}
+	.carousel-text{
+		text-align: center;
+		margin-left: 0px;
+	}
+	.carousel-text h1{
+		font-size: 50px;
+	}
+	.carousel-text h1 span{
+		font-size: 28px;
+	}
+	.custom-tab > li > a{
+		font-size: 12px;
+		padding: 10px 5px;
+		font-weight: normal;
+	}
+	.single-csm-products{
+		border-right: 0px;
+	}
+	.single-csm-products .product-img img{
+		width: 100%;
+	}
+	.load-more a{
+		font-size: 12px;
+		padding: 15px;
+	}
+	.newsletter-area{
+		padding: 30px 0;
+	}
+	.coupon{
+		transform: scale(1);
+		margin: 0 auto;
+	}
+	.coupon-text{
+		padding: 10px 0;
+	}
+	.coupon-text h1{
+		font-size: 20px;
+		padding-left: 0px;
+	}
+	.newsletter-subscribe{
+		padding: 0;
+	}
+	.single-footer-top{
+		text-align: center;
+	}
+	.floatright{
+		float: none;
+	}
+	.footer-left{
+		text-align: center;
+	}
+	.useful-link{
+		text-align: center;
+	}
+
+	.single-product-menu{
+		text-align: center;
+	}
+	.necessary-icon{
+		text-align: center;
+	}
+	.spd-menu-holder{
+		width: 35%;
+	}
+	.spd-menu > ul > li > ul > li > a{
+		font-size: 12px;
+	}
+	.spd-product{
+		width: 65%;
+	}
+	.single-spd-products{
+		border-right: none;
+		margin: 10px 0;
+	}
+	.single-spd-products  .spd-img{
+		width: 92%;
+	}
+	.spd-heading{
+		height: 50px;
+	}
+	.spd-heading ul li h1{
+		font-size: 30px;
+		line-height: 56px;
+		margin-right: 0px;
+	}
+	.spd-heading ul li:last-child{
+		display: none;
+	}
+	.single-spd-products{
+		width: 100%;
+	}
+	.spd-menu > ul > li > a{
+		font-size: 12px;
+		font-style: italic;
+	}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+	.single-csm-products .product-img img{
+		width: 450px;
+	}
+	.single-csm-products .product-img{
+		text-align: center;
+	}
+	.coupon-text{
+		padding-bottom: 50px;
+		text-align: center;
+	}
+	.floatright{
+		float: none;
+	}
+	.footer-left{
+		text-align: center;
+	}
+	.useful-link{
+		text-align: center;
+	}
+
+}

@@ -1,0 +1,266 @@
+/*Custom Layout*/
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+	.shop-link a{
+		font-size: 13px;
+	}
+	.shop-link a::after{
+		border-width: 7px;
+	}
+	.slider-text h1{
+		font-size: 70px;
+
+	}
+	.slider-text h1::after{
+	   font-size: 16px;
+       margin-left: -206px;
+	}
+	.craftsmanship-link a{
+		width: 250px;
+	}
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.header-area{
+		background-size: 20% 100px;
+	}
+	.header-left{
+		text-align: center;
+	}
+	.header-social > ul{
+		float: none;
+		text-align: center;
+	}
+	.menu-area nav a.navbar-brand{
+		font-size: 18px;
+		line-height: 22px;
+		height: auto;
+	}
+	.menu-area .navbar{
+		min-height: 50px;
+
+	}
+	#example-nav > ul > li{
+		padding: 13px 0;
+	}
+	#example-nav > ul > li > a{
+		font-size: 12px;
+	}
+	.slider-text h1{
+		font-size: 60px;
+
+	}
+	.slider-text h1::after{
+		font-size: 14px;
+		margin-left: -180px;
+	}
+	.craftsmanship-title h1{
+		font-size: 55px;
+	}
+	.craftsmanship-link{
+		bottom: -58px;
+	}
+	.craftsmanship-link a{
+		font-size: 9px;
+		width: 200px;
+		
+	}
+	.craftsmanship-link a::after{
+		display: none;
+	}
+
+	
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+
+	.header-area{
+		background-size: 36% 80px;
+	}
+	.header-left{
+		text-align: center;
+	}
+	.header-left h2{
+		font-size: 12px;
+	}
+	
+	.header-social > ul{
+		display: none;
+	}
+	#myslider .item{
+		height: 400px;
+	}
+	#myslider .item .slider-image img{
+		height: 400px;
+	}
+	.slider-text{
+		margin-top: -37px;
+	}
+	#example-nav > ul > li{
+		padding: 5px 0;
+	}
+	#example-nav > ul > li > a{
+		font-size: 14px;
+	}
+	#example-nav > ul > li > ul.mega-menu, #example-nav > ul > li > ul.sub-menu{
+		position: relative;
+		background-color: transparent;
+		border: none;
+		width: 100%;
+		transition: all .35s ease 0s;
+		height: auto;
+		background-color: rgba(213, 194, 174, .7)
+
+	}
+	#example-nav > ul > li > ul.mega-menu::after, #example-nav > ul > li > ul.sub-menu::after{
+		display: none;
+	}
+	#example-nav > ul > li > ul.mega-menu > li > ul.mega-submenu{
+		position: relative;
+		padding: 0;
+	}
+	.menu-area nav.navbar{
+		min-height: 50px;
+		padding-right: 0px;
+
+	}
+	#example-nav ul.nav.navbar-nav{
+   		background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+    	border: 2px solid #bd835d;
+    	border-radius: 5px;
+    	margin: 0.5px -5px;
+    	width: 245px;
+   }
+	.menu-area nav.navbar-default{
+		padding-left: 0px;
+		background-color: transparent;
+		border: none;
+	}
+	.menu-area nav.navbar-default .navbar-header{
+		background-color: rgba(255,255,255,.6);
+	}
+	.menu-area nav a.navbar-brand{
+		font-size: 15px;
+		line-height: 22px;
+		height: auto;
+		width: 75%;
+	}
+
+	.menu-area nav a.navbar-brand span{
+		font-size: 16px;
+	}
+	.menu-area .navbar-toggle{
+		margin: 20px 0px 20px 15px;
+		float: left;
+		border: none;
+	}
+	.menu-area .navbar-default .navbar-toggle .icon-bar{
+		background-color: #000;
+	}
+	.menu-area .navbar-toggle:hover{
+		background: none;
+	}
+
+	.slider-text h1{
+		font-size: 24px;
+		font-weight: 400;
+	}
+	.slider-text h1::after{
+		font-size: 14px;
+		left: 65%;
+		margin-left: -100px;
+	}
+	.pompanoosuc-slider-area #myslider a.left.control{
+		left: 5%;
+	}
+	.pompanoosuc-slider-area #myslider a.right.control{
+		right: 5%;
+	}
+	.pompanoosuc-slider-area #myslider a.control{
+		height: 33px;
+		width: 33px;
+		font-size: 26px;
+		line-height: 33px;
+	}
+	#example-nav > ul > li.search > ul.dropdown-menu.search-o::after{
+		display: none;
+	}
+	.menu-area .is-sticky nav.navbar-default{
+	    background-color: transparent;
+     }
+	.menu-area .is-sticky nav.navbar-default .navbar-header{
+		background-color: white
+     }
+	.table-image{
+		border-right: none;
+	}
+	.table-image > img{
+		height: 280px;
+	}
+	.table-text{
+		bottom: -10px;
+    	right: 0;
+    	text-align: center;
+    	width: 100%;
+	}
+	.shop-link{
+		float: none;
+	}
+	.shop-link a{
+		font-size: 11px;
+		padding: 5px 25px;
+	}
+	.craftsmanship-title h1{
+		font-size: 26px;
+		padding: 15px 0;
+	}
+	.row.image-gallery{
+		padding: 0;
+	}
+	.single-image{
+		width: 100%;
+		border: none;
+		margin-bottom: 42px;
+	}
+	.single-image.last{
+		border-right: none;
+	}
+	.craftsmanship-link{
+		bottom: -37px;
+	}
+	.craftsmanship-link a{
+	    font-size: 10px;
+	    height: 30px;
+	    line-height: 30px;
+	    width: 260px;
+	}
+	.craftsmanship-link a::after{
+		border-width: 15px;
+	}
+	.signup-area{
+		margin-top: 0px;
+	}
+	.signup-offers{
+		width: 260px;
+	}
+	.signup-form{
+		font-size: 9px;
+
+	}
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+
+
+
+}

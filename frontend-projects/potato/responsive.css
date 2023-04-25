@@ -1,0 +1,121 @@
+/*Custom Layout*/
+@media only screen and (min-width: 992px) and (max-width: 1300px){
+	
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.logo{
+    	width: 100%;
+    	text-align: center;
+    	margin-left: 0px;
+    	float: none;
+    	padding: 0;
+    }
+
+	.main-menu > li > a{
+    	font-size: 34px;
+    }
+    .main-menu{
+    	padding: 150px 0;
+    }
+    .iphone-content{
+    	padding: 20px 0;
+    }
+
+	
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .logo{
+    	width: 100%;
+    	text-align: center;
+    	margin-left: 0px;
+    	float: none;
+    	padding: 0;
+    }
+    .logo img{
+    	width: 65px;
+    }
+    .header-social > ul{
+    	padding: 10px 0;
+    }
+    .header-social > ul > li > a{
+    	margin-right: 5px;
+    }
+    .order-button{
+		top: 82%;
+    }
+    .order-button img{
+		width: 150px;
+    }
+    .iphone-content{
+    	text-align: center;
+    	margin-bottom: 20px;
+    	padding-bottom: 0px;
+        padding-top: 0;
+        margin-top: 100px;
+
+
+    }
+    .iphone-content h1{
+        background-color: rgba(0,0,0,0.5);
+        font-size: 35px;
+        border-radius: 5px;
+        line-height: 35px;
+        display: block;
+        padding: 10px 0;
+    }
+    .iphone-content p{
+    	padding: 10px;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 5px;
+        display: block;
+        font-size: 10px;
+
+    }
+    .main-menu > li > a{
+    	font-size: 28px;
+    }
+    .main-menu{
+    	padding: 100px 0;
+    }
+    .mekanisme-img img{
+    	width: 90px;
+    }
+    .responsive{
+        display: block;
+    }
+    .mekanisme-content > h1{
+        display: none;
+    }
+    .footer{
+        position: relative;
+    }
+    .footer p{
+        margin: 20px 0;
+    }
+    .responsive h1{
+        font-family: 'Amigo-Regular',cursive;
+         color: #fff;
+        font-size: 50px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+
+
+
+}

@@ -1,0 +1,191 @@
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+
+
+
+}
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.logo{
+        width: 100%;
+        text-align: center;
+    }
+    .social-profile{
+        text-align: center;
+        padding: 15px 0;
+    }
+    .slide-text h1{
+    	font-size: 40px;
+    }
+    .service-content a > h3 > span{
+    	font-size: 14px;
+    }
+    .single-gallery{
+        width: 50%;
+    }
+
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	.logo{
+		width: 100%;
+		text-align: center;
+	}
+    .menu-button{
+    	display: block;
+    }
+    .main-menu-area{
+    	background-color: #fff;
+    	padding-top: 55px;
+
+    }
+    .main-menu > ul{
+    	display: none;
+    }
+    .main-menu > ul > li{
+    	float: none;
+        width: 85%;
+        margin: 0 auto;
+        border: none;
+    }
+    .main-menu > ul > li:first-child{
+        border-left: none;
+    }
+    .main-menu > ul > li >  a{
+    	font-size: 14px;
+    	padding: 5px 20px;
+    	background-color: #000;
+    	color: #fff;
+    	margin-bottom: 10px;
+        border-radius: 5px;
+        border: none;
+        letter-spacing: 5px;
+    }
+    .slider-text{
+        width: 100%;
+    }
+    .slider-text h1{
+        font-size: 20px;
+    }
+     .slider-text p{
+        font-size: 12px;
+     }
+    .col-md-4.slide{
+        padding-right: 15px;
+    }
+    .notice-board{
+        margin-top: 30px;
+    }
+    .notice-heading h1{
+        font-size:  14px;
+    }
+    .notice-content ul li a{
+        font-size: 13px;
+    }
+    .section-title h1{
+    	font-size: 14px;
+    }
+    .principal-word{
+        height: auto;
+    }
+    .principal-speech h1{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .principal-image{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .principal-speech{
+        width: 100%;
+        float: none;
+    }
+    .staff-qualification{
+        padding: 27px 0;
+    }
+    .staff-qualification h4{
+        font-size: 14px;
+    }
+    .staff-qualification h5{
+        font-size: 12px;
+    }
+    .student-information h1{
+        text-align: center;
+    }
+    .form-label{
+        width: 100%;
+        float: none;
+    }
+    .form-content{
+        width: 100%;
+        float: none;
+    }
+    .form-submit{
+        float: none;
+        padding: 20px 0;
+    }
+    .student-pagi ul li a{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .course-desc{
+    	width: 50%;
+    }
+    .course-desc > a > h2{
+    	font-size: 10px;
+    }
+    .author-message p{
+    	font-size: 12px;
+    	
+    }
+    .single-service{
+    	width: 50%;
+    	overflow: hidden;
+    	margin: 0 auto;
+    	height: 190px;
+    	border: none;
+    }
+    .authorized-image{
+    	padding: 0;
+    	width: 100%;
+    	float: none;
+    	text-align: center;
+    }
+    .authorized-text{
+    	width: 100%;
+    	float: none;
+    }
+    .authorized-text h2{
+    	font-size: 16px;
+    	text-align: center;
+    }
+    .authorized-text h1{
+    	font-size: 23px;
+    	text-align: center;
+    }
+    .copyright-text p{
+    	text-align: center;
+    	margin-bottom: 5px;
+    }
+    .designer p{
+    	text-align: center;
+    }
+    .single-gallery{
+        width: 100%;
+    }
+    .gallery-image img{
+        width: 100%;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+}

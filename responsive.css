@@ -1,0 +1,196 @@
+/*Custom Layout*/
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+	.profile-pic > img {
+    	height: 265px;
+	}
+
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	#demo-site ul.navbar-nav > li > a{
+	font-size: 14px;
+	padding: 15px 20px;
+	}
+	.profile-box{
+		width: 100%;
+		height: auto;
+	}
+	.profile-pic{
+		width: 50%;
+		height: 300px;
+		overflow: hidden;
+	}
+	.profile-pic img{
+		
+	}
+	.profile-content{
+		width: 50%;
+		border-right: none;
+		height: 300px;
+	}
+	.social-profile{
+		width: 100%;
+		padding: 25px 0;
+	}
+	
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	.scroll {
+    background: rgba(0,0,0,.8);
+    padding: 7px 11px;
+    bottom: 0;
+    border-radius: 5px 5px 0 0;
+    font-size: 12px;
+    right: 5px;
+    color: #fff;
+   }
+	.header-area .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+		border-color: #000;
+	}
+	.user-table{
+		font-size: 12px;
+	}
+	.float-inf{
+		width: 180px;
+		display: none;
+	}
+	.open-float{
+		display: block;
+	}
+	.float-inf p{
+		font-size: 13px;
+	}
+	.hours p, .minutes p, .seconds p, .twelvehr p{
+		width: 22%;
+	}
+	.notification .close::after{
+		height: 3rem;
+		line-height: 3rem;
+		width: 3rem;
+		text-align: center;
+		pointer-events: none;
+		font-size: 19px;
+		background: #e74c3c;
+		border-radius: 7px;
+
+	}
+	a.ex-login{
+		display: block;
+	}
+	#demo-site ul.navbar-nav > li > a{
+    	font-size: 14px;
+		padding: 10px 20px;
+		text-align: left;
+		letter-spacing: 2px;
+
+	}
+	#demo-site ul.navbar-nav > li > a:hover{
+		
+		background: #95a5a6
+
+	}
+
+	.navbar-brand.logo{
+		font-size: 20px;
+	}
+	.navbar-brand.logo span{
+		font-size: 11px;
+	}
+	.user-heading{
+		width: 100%;
+		float: none;
+	}
+	.user-image{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.user-image img{
+		margin-bottom: 50px;
+		border-radius: 100%;
+	}
+	.profile-box{
+		width: 100%;
+		height: auto;
+	}
+	.profile-pic{
+		width: 100%;
+	}
+	.profile-content{
+		width: 100%;
+		border-right: none;
+	}
+	.social-profile{
+		width: 100%;
+	}
+	.profile-content .profile-heading{
+		margin: 10px 0px;
+	}
+	.profile-content .profile-heading h1{
+		padding-left: 0px;
+	}
+	.profile-content .profile-heading h1::after{
+		top: -33px;
+	}
+	.profile-description{
+		margin-left: 0px;
+		margin: 0 auto;
+    	width: 270px;
+	}
+	.social-profile{
+		padding: 40px 0;
+	}
+	.section-title h1{
+		font-size: 30px
+	}
+	.profile-content .profile-heading h1{
+		width: 290px;
+		margin: 0 auto 20px;
+	}
+	.profile-content .profile-heading h2{
+		width: 100%;
+	}
+	.contact-form .form-control{
+		font-size: 11px;
+	}
+	.copyright h2{
+		font-size: 15px;
+	}
+	.copyright p{
+		font-size: 12px;
+	}
+	.copyright > p > a{
+		font-size: 12px;
+
+	}
+	
+	.copyright-text p{
+		text-align: center;
+		padding: 15px 0;
+	}
+
+	.designer p{
+		text-align: center;
+	}
+	.notification{
+		height: 70px;
+	}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+
+
+
+}

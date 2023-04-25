@@ -1,0 +1,212 @@
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+
+
+
+}
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.logo{
+		float: none;
+		width: 100%;
+		text-align: center;
+		padding: 10px 0;
+	}
+	.categories > a{
+		font-size: 12px;
+	}
+	.main-menu > ul > li > a{
+		padding: 0 5px;
+		font-size: 12px;
+	}
+	.categories-list > ul > li > a{
+		font-size: 14px;
+	}
+	.text-bottom > ul > li{
+		padding: 20px 10px;
+	}
+	.header-menu{
+    	float: none;
+    }
+    .section-title > h1{
+    	font-size: 11px;
+    }
+    .template-btn{
+    	padding: 5px 15px;
+    }
+    .sale-text::after{
+    	left: -23px;
+    }
+    .sale-text{
+    	padding: 18px;
+    }
+    .single-footer-top{
+        padding-bottom: 40px;
+        overflow: hidden;
+        clear: both;
+
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	.logo{
+		float: none;
+		width: 100%;
+		text-align: center;
+		padding: 10px 0;
+	}
+	.logo a > img{
+	    width: 140px;
+	    height: auto;
+    }
+    .header-menu{
+    	float: none;
+    }
+    .header-menu > ul > li{
+    	margin: 0 5px;
+    }
+    .header-menu > ul > li::after{
+    	display: none;
+    }
+    .search{
+    	width: 100%;
+    }
+    .cart{
+    	width: 100%;
+    	text-align: center;
+    	background-color: #F1C40F;
+    	padding: 10px;
+    	display: block;
+    	border-radius: 5px;
+    }
+    .cart > ul{
+    	float: none;
+    }
+    .cart > ul > li > a > i{
+    	background-color: #000;
+    }
+    .menu-button{
+    	display: block;
+    }
+    .main-menu > ul{
+    	padding-top: 20px;
+   		display: none;
+    }
+    .main-menu > ul > li{
+    	display: block;
+    	background-color: #f39c12
+
+    }
+    .main-menu > ul > li:first-child{
+    	position: relative;
+    }
+    .main-menu > ul > li:first-child::after{
+	    border-color: transparent transparent  #F39C12 transparent;
+	    border-style: solid;
+	    border-width: 9px;
+	    content: "";
+	    position: absolute;
+	    right: 13px;
+	    top: -18px;
+
+    }
+    .main-menu > ul > li > a{
+    	padding: 10px;
+    	margin-bottom: 3px;
+    	font-size: 12px;
+    	letter-spacing: 5px;
+    }
+    .text-bottom > ul > li{
+    	padding: 10px 0;
+    	width: 100%;
+    }
+    .text-bottom > ul > li > p{
+    	font-size: 14px;
+    }
+    .text-upper{
+    	margin-top: -175px;
+    	width: 100%;
+    	text-align: center;
+    	left: 0;
+    	background-color: transparent;
+    }
+    .text-upper h2{
+    	font-size: 18px;
+    	margin-bottom: 10px;
+    }
+    .text-upper h1{
+	   font-size: 30px;
+	   margin-bottom: 10px;
+    }
+    .text-upper h3{
+    	font-size: 16px;
+    	margin-bottom: 15px;
+    }
+    .section-title > h1{
+    	font-size: 16px;
+    }
+    .product-image img{
+    	width: 100%;
+    	height: 300px;
+    }
+    .col-md-9.category{
+    	margin-top: 35px;
+    }
+    .product-categories{
+	   	right: 0;
+	    text-align: center;
+	    width: 100%;
+	    top: 45px;
+    }
+    .product-categories button{
+    	font-size: 10px;
+    }
+    .advertise{
+    	margin-bottom: 35px;
+    }
+    .single-fashion-sale{
+    	width: 100%;
+    	float: none;
+    	padding-right: 0px;
+    	margin-bottom: 35px;
+    }
+    .single-fashion-sale:last-child{
+    	padding-left: 0px;
+    }
+    .shop-image{
+    	width: 100%;
+    	float: none;
+    }
+    .shop-text{
+    	width: 100%;
+    	float: none;
+    }
+    .brand-logo{
+		margin-bottom: 20px;
+		padding-left: 30px;
+    }
+    .brand-logo img{
+		display: block;
+		padding: 0px;
+		width: 60px;
+		height: 80px;
+    }
+    .single-footer-top{
+    	padding-bottom: 40px;
+    	overflow: hidden;
+    	clear: both;
+
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	
+
+}
